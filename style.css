@@ -136,5 +136,40 @@ a {
     margin-top: 16px; /* Replace distance later */
     padding: 10px 30px;
 }
-
 /* -- End of CSS of Main Contents -- */
+
+/* -- Footer CSS -- */
+#footer {
+    color: #fff;
+    background-color: #54565b;
+    text-align: center;
+}
+
+#footer .footer {
+    flex-direction: column;
+    min-height: 200px;
+    padding: 20px 0 10px 0;
+}
+
+#footer h1 {
+    font-size: 4rem;
+    letter-spacing: .1rem;
+}
+
+#footer h2 {
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    margin: 10px 0 10px 0;
+}
+
+#footer img{
+    width: 50%;
+    height: auto;
+}
+
+#footer .media-icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+/* -- End of Footer CSS -- */
