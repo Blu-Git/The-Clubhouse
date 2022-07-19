@@ -87,6 +87,36 @@ a {
     --- Add Animation later ---
     -- Add Keyframes Later --
 */
-
 /* -- End of Hero Section CSS -- */
 
+/* -- Welcome/Introduction Section CSS --*/
+#intro .intro{
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    max-width: 1500px;
+}
+
+.standard-header {
+    text-align: center;
+    color: #000; /* Check later if there is a  better color combination */
+    font-size: 4rem;
+    font-weight: 600; /* Replace to more appealing weight*/ 
+    letter-spacing: .1rem; /* Check to see if different sizing is better*/
+    margin-bottom: 10px;
+
+}
+
+/*Exclamation point of header*/
+#intro span {
+    color: #da291c; /* Check later if there is a  better color combination */
+}
+
+#intro .intro-content p {
+    font-family: 'Crimson', serif;
+    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    line-height: 2.5rem;
+}
+/* -- End of Welcome/Introduction Section CSS*/
