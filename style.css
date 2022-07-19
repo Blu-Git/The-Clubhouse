@@ -107,7 +107,6 @@ a {
     font-weight: 600; /* Replace to more appealing weight*/ 
     letter-spacing: .1rem; /* Check to see if different sizing is better*/
     margin-bottom: 10px;
-
 }
 
 /*Exclamation point of Welcome header*/
@@ -124,6 +123,22 @@ a {
     letter-spacing: .05rem;
     line-height: 2.5rem;
 }
+
+/* Event Info Special CSS*/
+#event-info .event-info, #event-info .event-info p {
+    font-family: 'Monteserrat', sans-serif; /* Replace font if needed*/
+    font-weight: 200;
+    background-color: #eee;
+}
+
+#event-info .standard-header {
+    color: #da291c;
+}
+
+#event-info .subtext {
+    margin-bottom: 10px;
+}
+/* End Event Info Special CSS*/
 
 #registration .cta {
     display: inline-block;
