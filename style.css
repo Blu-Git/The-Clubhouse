@@ -90,7 +90,7 @@ a {
 /* -- End of Hero Section CSS -- */
 
 /* -- Welcome/Introduction Section CSS --*/
-#intro .intro{
+#intro .intro, #event-info .event-info{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
@@ -113,10 +113,14 @@ a {
     color: #da291c; /* Check later if there is a  better color combination */
 }
 
-#intro .intro-content p {
+#intro .intro-content p, #event-info .event-content p {
     font-family: 'Crimson', serif;
     font-size: 1.4rem;
     letter-spacing: .05rem;
     line-height: 2.5rem;
 }
-/* -- End of Welcome/Introduction Section CSS*/
+/* -- End of Welcome/Introduction Section CSS -- */
+
+/* -- Event Info Section CSS -- */
+
+/* -- End of Event Info Section CSS */
