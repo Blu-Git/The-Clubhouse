@@ -14,6 +14,11 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    /* Add font-style */
+}
+
 /* -- Hero Section CSS -- */
 #hero {
     background-image: url(images/Header-Image.jpg);
@@ -64,11 +69,6 @@ html {
     addition to missing elements */
 }
 
-a {
-    text-decoration: none;
-    /* Add font-style */
-}
-
 #hero .cta {
     display: inline-block;
     font-size: 2rem;
@@ -89,8 +89,10 @@ a {
 */
 /* -- End of Hero Section CSS -- */
 
-/* -- Welcome/Introduction Section CSS --*/
-#intro .intro, #event-info .event-info{
+/* -- CSS of Main Contents --*/
+#intro .intro, 
+#event-info .event-info, 
+#registration .registration{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
@@ -108,19 +110,31 @@ a {
 
 }
 
-/*Exclamation point of header*/
+/*Exclamation point of Welcome header*/
 #intro span {
     color: #da291c; /* Check later if there is a  better color combination */
 }
 
-#intro .intro-content p, #event-info .event-content p {
+#intro .intro-content p,
+#event-info .event-content p,
+#registration .registration-content p {
+    padding: 0 1.5rem; /*Adjust later */
     font-family: 'Crimson', serif;
     font-size: 1.4rem;
     letter-spacing: .05rem;
     line-height: 2.5rem;
 }
-/* -- End of Welcome/Introduction Section CSS -- */
 
-/* -- Event Info Section CSS -- */
+#registration .cta {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    color: #ffc72c;
+    background-color: #da291c;
+    border-radius: 24px;
+    margin-top: 16px; /* Replace distance later */
+    padding: 10px 30px;
+}
 
-/* -- End of Event Info Section CSS */
+/* -- End of CSS of Main Contents -- */
