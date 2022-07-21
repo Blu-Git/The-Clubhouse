@@ -13,3 +13,14 @@ menu.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
     // after event (click), menu icon becomes active class
 });
+
+document.addEventListener('scroll', () => {
+    // Changes the navigation background to red after exiting hero section
+    // window.scrollY = gets y-axis value relative to scroll on page
+    let scrollPosition = window.scrollY;
+    if (scrollPosition > 600) {
+        header.style.backgroundColor = 'rgb(218, 41, 28, .9)';
+    } else {
+        header.style.backgroundColor = 'transparent';
+    }
+});
