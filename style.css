@@ -95,6 +95,7 @@ a {
 #header .header {
     min-height: 8vh;
     background-color: rgb(31, 30, 30, 0.24);
+    transition: .3s ease background-color; /* Black to red transition animation */
 }
 
 #header .nav-bar {
