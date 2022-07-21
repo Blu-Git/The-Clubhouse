@@ -120,11 +120,17 @@ a {
     background-color: rgb(31, 30, 30);
     width: 100vw;
     height: 100vh;
-    left: 0;
+    left: 100%; /* Value hides the ul then, shown after event */
     top: 0;
     position: absolute;
     z-index: 1;
     overflow: hidden;
+    transition: .5s ease left; /* Tranistion animation */
+}
+
+/* Shows navigation upon click */
+#header .nav-list ul.active {
+    left: 0%;
 }
 
 #header .nav-list ul a {
@@ -145,6 +151,8 @@ a {
     justify-content: center;
     width: 60px;
     height: 60px;
+    margin-right: 20px;
+    transform: scale(.8); /* Responsive design making icon smaller */
     border: 3px solid #fff;
     border-radius: 50%;
     position: relative;
@@ -157,6 +165,9 @@ a {
     /* Test if sizing will change anything later */
     font-size: 38px;
 }
+
+/* Click Event Effects */
+
 /* -- End of Header / Navigation Section */
 
 /* Animations */
