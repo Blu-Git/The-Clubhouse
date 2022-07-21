@@ -143,6 +143,8 @@ a {
     padding: 20px;
 }
 
+/* Add hover feature */
+
 /* Menu icon */
 #header .menu {
     display: inline-block;
@@ -276,3 +278,30 @@ a {
     margin-bottom: 10px;
 }
 /* -- End of Footer CSS -- */
+
+/* -- Media Queries for responsive design --*/
+
+/* For Desktop */
+@media only screen and (min-width: 1200px) {
+    /* For header */
+    #header .menu {
+        display: none;
+    }
+
+    #header .nav-list ul {
+        position: initial;
+        display: block;
+        width: fit-content;
+        height: auto;
+        background-color: transparent;
+    }
+
+    #header .nav-list ul li {
+        display: inline-block;
+    }
+
+    #header .nav-list ul li a {
+        font-size: 1.8rem;
+    }
+    /* End of header */
+}
