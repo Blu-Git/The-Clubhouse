@@ -154,6 +154,7 @@ a {
 
 #header .material-icons {
     color: #fff;
+    /* Test if sizing will change anything later */
     font-size: 38px;
 }
 /* -- End of Header / Navigation Section */
