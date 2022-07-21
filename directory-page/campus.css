@@ -1,0 +1,70 @@
+/* Card CSS */
+#campus .campus {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#campus .campus-card {
+    width: 400px;
+}
+
+#campus .campus-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 14px 0 #54565b; /* Experiment with colors */
+    width: 80%;
+    padding: 20px;
+    margin: 30px;
+    transition: .3s ease box-shadow;
+}
+
+#campus .campus-card:hover {
+    box-shadow: 0px 0px 5px 0px #54565b;
+}
+
+#campus .campus .title {
+    color: #da291c;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+#campus .campus-card .icon img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+#campus .campus .campus-card h1 {
+    color: #da291c;
+    font-size: 2.5rem;
+    letter-spacing: .1rem;
+    margin-bottom: -5px;
+}
+/* End of Card CSS */
+
+/* Media Query for desktop */
+
+@media only screen and (min-width: 1200px) {
+    
+    #campus .campus {
+        flex-direction: row;
+    }
+
+    #campus .campus .title {
+        margin: 0;
+        margin-right: 30px;
+        text-decoration: underline 2px;
+    }
+    
+    #campus .campus-card {
+        width: 400px;
+        margin: 12px;
+    }
+}
