@@ -4,7 +4,7 @@ const menu = document.querySelector('.header .nav-bar .nav-list .menu');
 const mobileMenu = document.querySelector('.header .nav-bar .nav-list ul');
 const header = document.querySelector('.header.container');
 
-// Sets up a function to be called if clicked
+// addEventListener sets up a function to be called if clicked
 // Function shorthand
 menu.addEventListener('click', () => {
     // classList returns DOMTokenList (set of space-separated tokens/symbols)
