@@ -83,7 +83,8 @@ a {
 }
 
 /* -- Header / Navigation Section */
-#header {
+#header, 
+#navigation {
     width: 100vw;
     height: auto;
     position: fixed;
@@ -92,13 +93,15 @@ a {
     z-index: 1000;
 }
 
-#header .header {
+
+#header .header{
     min-height: 8vh;
     background-color: rgb(31, 30, 30, 0.24);
     transition: .3s ease background-color; /* Black to red transition animation */
 }
 
-#header .nav-bar {
+#header .nav-bar,
+#navigation .nav-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -107,12 +110,18 @@ a {
     padding: 0 10px;
 }
 
+#navigation .nav-bar {
+    max-width: 100vw;
+    margin-bottom: 10px;
+}
+
 #header h1 {
     color: #fff;
     letter-spacing: .1rem;
 }
 
-#header .nav-list ul {
+#header .nav-list ul,
+#navigation .nav-list ul {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,11 +139,13 @@ a {
 }
 
 /* Shows navigation upon click */
-#header .nav-list ul.active {
+#header .nav-list ul.active,
+#navigation .nav-list ul.active {
     left: 0%;
 }
 
-#header .nav-list ul a {
+#header .nav-list ul a,
+#navigation .nav-list ul a{
     display: block;
     color: #fff;
     font-size: 2.5rem;
@@ -147,7 +158,8 @@ a {
 /* Add hover feature */
 
 /* Menu icon */
-#header .menu {
+#header .menu,
+#navigation .menu {
     display: inline-block;
     display: flex;
     align-items: center;
@@ -161,6 +173,11 @@ a {
     position: relative;
     z-index: 100;
     cursor: pointer;
+}
+
+#navigation .menu {
+    border-color: #54565b;
+    margin-right: 0;
 }
 
 #header .material-icons {
