@@ -90,8 +90,9 @@
 
 /* -- End of Card CSS -- */
 
-/* Media Query for desktop and landscape mobile view*/
+/* Media Query for responsive design */
 
+/* Tablets and desktops */
 @media only screen and (min-width: 800px) {
     #navigation .header .nav-bar {
         padding-right: 3px;
