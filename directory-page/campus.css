@@ -35,6 +35,10 @@
     transition: .3s ease box-shadow;
 }
 
+#campus .club-card {
+    padding: 25px;
+}
+
 #campus .campus-card:hover {
     box-shadow: 0px 0px 5px 0px #54565b;
 }
@@ -65,8 +69,9 @@
 }
 
 /* CSS for Club-info */
-#campus .club-card .club-info h2{
+#campus .club-card .club-info h2 {
     color: #54565b;
+    font-size: 13px;
     text-decoration: underline;
     margin: 3.5px 0;
 }
@@ -107,6 +112,17 @@
         width: 400px;
         margin: 12px;
     }
+
+    #campus .club-card .club-info h2 {
+        font-size: 1.75rem;
+        margin: 6.5px 0;
+    }
+
+    #campus .club-card .club-info h2.oversized {
+        font-size: 1.45rem;
+        margin: 8px 0;
+    }
+
 }
 
 @media only screen and (min-width: 1200px) {
