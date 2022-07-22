@@ -47,6 +47,12 @@
     letter-spacing: .1rem;
     margin-bottom: -5px;
 }
+
+#campus .campus .campus-card .makati {
+    color: #ffc72c;
+}
+
+
 /* End of Card CSS */
 
 /* Media Query for desktop */
