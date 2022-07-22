@@ -63,7 +63,27 @@
 #campus .campus .campus-card .makati {
     color: #ffc72c;
 }
-/* End of Card CSS */
+
+/* CSS for Club-info */
+#campus .club-card .club-info h2{
+    color: #54565b;
+    text-decoration: underline;
+    margin: 3.5px 0;
+}
+
+#campus .club-card .club-info .soc-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#campus .club-card .club-info .soc-media .fa {
+    color: #3d3f42;
+    font-size: 3.5rem;
+    margin: 2px 4px 0 4px;
+}
+
+/* -- End of Card CSS -- */
 
 /* Media Query for desktop and landscape mobile view*/
 
@@ -74,6 +94,8 @@
 
     #campus .campus {
         flex-direction: row;
+        /* For club grid */
+        flex-wrap: wrap;
     }
 
     #campus .campus .title {
@@ -88,9 +110,17 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    
     #campus .campus .title {
         margin: 0;
         margin-right: 30px;
+    }
+
+    #campus .campus .club-card .club-info h1 {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+
+    #campus .club-card {
+        width: 350px;
     }
 }
