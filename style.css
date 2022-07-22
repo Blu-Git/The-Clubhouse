@@ -82,7 +82,9 @@ a {
     /* Add Transition Later */
 }
 
-/* -- Header / Navigation Section */
+/* -- Header / Navigation Section -- */
+
+/* For Club Directories pages */
 #header, 
 #navigation {
     width: 100vw;
@@ -93,6 +95,9 @@ a {
     z-index: 1000;
 }
 
+#navigation.club-nav {
+    position: relative;
+}
 
 #header .header{
     min-height: 8vh;
@@ -113,6 +118,11 @@ a {
 #navigation .nav-bar {
     max-width: 100vw;
     margin-bottom: 10px;
+}
+
+#navigation.club-nav .nav-bar {
+    padding: 2px;
+    margin-bottom: 0;
 }
 
 #header h1 {
@@ -299,6 +309,13 @@ a {
 
 /* -- Media Queries for responsive design --*/
 
+/* For tablets and Desktops */
+@media only screen and (min-width: 800px) {
+    #navigation.club-nav {
+        position: fixed;
+    }
+}
+
 /* For Desktop */
 @media only screen and (min-width: 1200px) {
     /* For header */
@@ -322,4 +339,5 @@ a {
         font-size: 1.8rem;
     }
     /* End of header */
+
 }
