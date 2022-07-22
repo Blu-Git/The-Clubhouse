@@ -1,3 +1,15 @@
+/* Header / Navigation CSS */
+#navigation .header {
+    min-height: 8vh;
+}
+
+#navigation .material-icons {
+    color: #7f8084;
+    font-size: 38px;
+}
+
+/*End of Header / Navigation CSS */
+
 /* Card CSS */
 #campus .campus {
     flex-direction: column;
@@ -51,26 +63,34 @@
 #campus .campus .campus-card .makati {
     color: #ffc72c;
 }
-
-
 /* End of Card CSS */
 
-/* Media Query for desktop */
+/* Media Query for desktop and landscape mobile view*/
 
-@media only screen and (min-width: 1200px) {
-    
+@media only screen and (min-width: 800px) {
+    #navigation .header .nav-bar {
+        padding-right: 3px;
+    }
+
     #campus .campus {
         flex-direction: row;
     }
 
     #campus .campus .title {
-        margin: 0;
-        margin-right: 30px;
+        margin: 0 30px;
         text-decoration: underline 2px;
     }
     
     #campus .campus-card {
         width: 400px;
         margin: 12px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    
+    #campus .campus .title {
+        margin: 0;
+        margin-right: 30px;
     }
 }
