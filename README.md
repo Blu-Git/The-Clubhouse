@@ -8,4 +8,4 @@ This is a directory website made to showcase the available clubs at a local univ
 - The reflection section will be added once the entire site is finished.
 
 ---
-- Criticism and comments are appreciated. Do let me know if you have any.
+- Criticism and comments are appreciated. Do let me know if you have any in github discussions.
