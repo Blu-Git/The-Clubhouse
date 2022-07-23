@@ -4,7 +4,7 @@ This is a directory website made to showcase the available clubs at a local univ
 
 ## Notes:
 - This website is still in development. There are still plenty features waiting to be developed.
-- In addition, this site has serves as a practice project. 
+- In addition, this site serves as a practice project. 
 - The reflection section will be added once the entire site is finished.
 
 ===
